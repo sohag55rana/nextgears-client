@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.custom-title {
+    font-family: 'Cinzel', serif;
+}
