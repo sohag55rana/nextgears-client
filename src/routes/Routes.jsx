@@ -7,6 +7,7 @@ import Models from "../pages/models/Models";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Contact from "../pages/contact/Contact";
 import About from "../pages/about/About";
+import OurMenu from "../ourMenu/OurMenu";
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
             {
                 path: "models",
                 element: <Models></Models>,
+            },
+            {
+                path: "ourMenu",
+                element: <OurMenu></OurMenu>,
             },
             {
                 path: "dashboard",

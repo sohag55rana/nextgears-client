@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "1",
+    "name": "Mehedi H.",
+    "details": "Buying my bike from NEXTGEARS was the best decision I\u2019ve made. The ride is super smooth, and the design turns heads everywhere I go!",
+    "rating": 4.9,
+    "place": "Dhaka"
+  },
+  {
+    "_id": "2",
+    "name": "Rony K.",
+    "details": "NEXTGEARS truly knows what bikers want. Their collection is insane, and their customer service was top-notch from start to finish.",
+    "rating": 5.0,
+    "place": "Chittagong"
+  },
+  {
+    "_id": "3",
+    "name": "Nazia S.",
+    "details": "I had doubts before ordering online, but NEXTGEARS exceeded all expectations. My bike arrived on time and in perfect condition. I\u2019m loving every ride!",
+    "rating": 4.8,
+    "place": "Sylhet"
+  },
+  {
+    "_id": "4",
+    "name": "Tariq R.",
+    "details": "You won\u2019t find bikes like these anywhere else in Bangladesh. Powerful, stylish, and reliable \u2014 my Yamaha is a total game-changer.",
+    "rating": 4.9,
+    "place": "Rajshahi"
+  },
+  {
+    "_id": "5",
+    "name": "Farzana M.",
+    "details": "I\u2019m a first-time buyer, and NEXTGEARS made the whole process super easy. From browsing to delivery, it was smooth sailing. Highly recommend!",
+    "rating": 4.7,
+    "place": "Khulna"
+  },
+  {
+    "_id": "6",
+    "name": "Adnan R.",
+    "details": "NEXTGEARS truly delivered! The bike I got exceeded my expectations. It looks fantastic, rides super smooth, and gets attention everywhere I go. Five stars!",
+    "rating": 5.0,
+    "place": "Dhaka"
+  },
+  {
+    "_id": "7",
+    "name": "Farzana M.",
+    "details": "I was nervous buying a bike online, but NEXTGEARS made it so easy. The team was helpful, and the delivery was fast. Now I can\u2019t stop riding!",
+    "rating": 4.6,
+    "place": "Sylhet"
+  },
+  {
+    "_id": "8",
+    "name": "Kawsar H.",
+    "details": "Unbelievable performance and top-notch build quality. This bike feels like it was made for me. I\u2019ve already recommended NEXTGEARS to all my friends.",
+    "rating": 4.9,
+    "place": "Rajshahi"
+  },
+  {
+    "_id": "9",
+    "name": "Jannat T.",
+    "details": "From browsing to delivery, the experience was smooth and professional. The bike arrived in perfect condition and rides like a dream. Thank you NEXTGEARS!",
+    "rating": 5.0,
+    "place": "Chittagong"
+  },
+  {
+    "_id": "10",
+    "name": "Sabbir A.",
+    "details": "I\u2019ve owned bikes before, but nothing compares to the one I bought from NEXTGEARS. It\u2019s powerful, stylish, and totally worth the price. You won\u2019t regret it!",
+    "rating": 4.8,
+    "place": "Khulna"
+  }
+]

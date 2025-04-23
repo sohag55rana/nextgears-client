@@ -2,7 +2,7 @@
   {
     "_id": "1",
     "name": "BMW Tourer",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/MkN8RwcF/pexels-giorgio-de-angelis-482403-1191109.jpg",
     "category": "BMW",
     "price": 80
@@ -10,7 +10,7 @@
   {
     "_id": "2",
     "name": "BMW Thunder",
-    "recipe": "High performance and smooth handling.",
+    "description": "High performance and smooth handling.",
     "image": "https://i.ibb.co.com/PGsnrPdy/pexels-giorgio-de-angelis-482403-1413412.jpg",
     "category": "BMW",
     "price": 55
@@ -18,7 +18,7 @@
   {
     "_id": "3",
     "name": "BMW Cruiser",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/BHTF1PbQ/pexels-kelly-1179532-2396044.jpg",
     "category": "BMW",
     "price": 77
@@ -26,7 +26,7 @@
   {
     "_id": "4",
     "name": "BMW Classic",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/1JBxSXh4/pexels-maria-geller-801267-2127008.jpg",
     "category": "BMW",
     "price": 85
@@ -34,7 +34,7 @@
   {
     "_id": "5",
     "name": "BMW Classic",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/mrZYsyjy/pexels-shkrabaanthony-5794243.jpg",
     "category": "BMW",
     "price": 50
@@ -42,7 +42,7 @@
   {
     "_id": "6",
     "name": "BMW Naked",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/MkN8RwcF/pexels-giorgio-de-angelis-482403-1191109.jpg",
     "category": "BMW",
     "price": 51
@@ -50,7 +50,7 @@
   {
     "_id": "7",
     "name": "BMW Sportster",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/PGsnrPdy/pexels-giorgio-de-angelis-482403-1413412.jpg",
     "category": "BMW",
     "price": 95
@@ -58,7 +58,7 @@
   {
     "_id": "8",
     "name": "BMW Classic",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/BHTF1PbQ/pexels-kelly-1179532-2396044.jpg",
     "category": "BMW",
     "price": 80
@@ -66,7 +66,7 @@
   {
     "_id": "9",
     "name": "BMW Cruiser",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/1JBxSXh4/pexels-maria-geller-801267-2127008.jpg",
     "category": "BMW",
     "price": 51
@@ -74,7 +74,7 @@
   {
     "_id": "10",
     "name": "BMW Racer",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/mrZYsyjy/pexels-shkrabaanthony-5794243.jpg",
     "category": "BMW",
     "price": 81
@@ -82,15 +82,15 @@
   {
     "_id": "11",
     "name": "Harley-Davidson Street",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/rR9YfBJ5/pexels-dmitry-ovsyannikov-271243380-16811898.jpg",
-    "category": "Harley-Davidson",
+    "category": "popular",
     "price": 64
   },
   {
     "_id": "12",
     "name": "Harley-Davidson Classic",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/3ypfvg4f/pexels-image-hunter-281453274-13023948.jpg",
     "category": "Harley-Davidson",
     "price": 63
@@ -98,7 +98,7 @@
   {
     "_id": "13",
     "name": "Harley-Davidson Tourer",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/QFxztSmy/pexels-jamphotography-2611658.jpg",
     "category": "Harley-Davidson",
     "price": 83
@@ -106,7 +106,7 @@
   {
     "_id": "14",
     "name": "Harley-Davidson Naked",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/V0H37gMw/pexels-lilartsy-2747793.jpg",
     "category": "Harley-Davidson",
     "price": 80
@@ -114,15 +114,15 @@
   {
     "_id": "15",
     "name": "Harley-Davidson Classic",
-    "recipe": "High performance and smooth handling.",
+    "description": "High performance and smooth handling.",
     "image": "https://i.ibb.co.com/g0mzMDy/pexels-rohit-george-1141376880-31700702.jpg",
-    "category": "Harley-Davidson",
+    "category": "popular",
     "price": 76
   },
   {
     "_id": "16",
     "name": "Harley-Davidson Street",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/rR9YfBJ5/pexels-dmitry-ovsyannikov-271243380-16811898.jpg",
     "category": "Harley-Davidson",
     "price": 77
@@ -130,7 +130,7 @@
   {
     "_id": "17",
     "name": "Harley-Davidson Model X",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/3ypfvg4f/pexels-image-hunter-281453274-13023948.jpg",
     "category": "Harley-Davidson",
     "price": 51
@@ -138,7 +138,7 @@
   {
     "_id": "18",
     "name": "Harley-Davidson Sportster",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/QFxztSmy/pexels-jamphotography-2611658.jpg",
     "category": "Harley-Davidson",
     "price": 97
@@ -146,7 +146,7 @@
   {
     "_id": "19",
     "name": "Harley-Davidson GT",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/V0H37gMw/pexels-lilartsy-2747793.jpg",
     "category": "Harley-Davidson",
     "price": 64
@@ -154,7 +154,7 @@
   {
     "_id": "20",
     "name": "Harley-Davidson Model X",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/g0mzMDy/pexels-rohit-george-1141376880-31700702.jpg",
     "category": "Harley-Davidson",
     "price": 67
@@ -162,7 +162,7 @@
   {
     "_id": "21",
     "name": "Honda Model X",
-    "recipe": "High performance and smooth handling.",
+    "description": "High performance and smooth handling.",
     "image": "https://i.ibb.co.com/1Gd4JvP2/pexels-cottonbro-5184917.jpg",
     "category": "Honda",
     "price": 85
@@ -170,7 +170,7 @@
   {
     "_id": "22",
     "name": "Honda Thunder",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/JW6hccdr/pexels-cristian-cativo-555686567-27359027.jpg",
     "category": "Honda",
     "price": 78
@@ -178,7 +178,7 @@
   {
     "_id": "23",
     "name": "Honda Model X",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/vxJ9VHLh/pexels-emir-anik-45418356-19297047.jpg",
     "category": "Honda",
     "price": 55
@@ -186,7 +186,7 @@
   {
     "_id": "24",
     "name": "Honda Classic",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/14T0dw1/pexels-keongracun-167641.jpg",
     "category": "Honda",
     "price": 73
@@ -194,7 +194,7 @@
   {
     "_id": "25",
     "name": "Honda Model X",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/MjRzq7b/pexels-loifotos-2044868.jpg",
     "category": "Honda",
     "price": 84
@@ -202,7 +202,7 @@
   {
     "_id": "26",
     "name": "Honda Street",
-    "recipe": "High performance and smooth handling.",
+    "description": "High performance and smooth handling.",
     "image": "https://i.ibb.co.com/chXx3XT3/pexels-malex-maleki-1693599227-28097912.jpg",
     "category": "Honda",
     "price": 98
@@ -210,7 +210,7 @@
   {
     "_id": "27",
     "name": "Honda Sportster",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/R4gMh85k/pexels-rachel-claire-4993288.jpg",
     "category": "Honda",
     "price": 82
@@ -218,7 +218,7 @@
   {
     "_id": "28",
     "name": "Honda Street",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/1Gd4JvP2/pexels-cottonbro-5184917.jpg",
     "category": "Honda",
     "price": 69
@@ -226,15 +226,15 @@
   {
     "_id": "29",
     "name": "Honda Tourer",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/JW6hccdr/pexels-cristian-cativo-555686567-27359027.jpg",
-    "category": "Honda",
+    "category": "popular",
     "price": 80
   },
   {
     "_id": "30",
     "name": "Honda GT",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/vxJ9VHLh/pexels-emir-anik-45418356-19297047.jpg",
     "category": "Honda",
     "price": 88
@@ -242,7 +242,7 @@
   {
     "_id": "31",
     "name": "Honda Sportster",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/14T0dw1/pexels-keongracun-167641.jpg",
     "category": "Honda",
     "price": 82
@@ -250,7 +250,7 @@
   {
     "_id": "32",
     "name": "Honda Tourer",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/MjRzq7b/pexels-loifotos-2044868.jpg",
     "category": "Honda",
     "price": 84
@@ -258,7 +258,7 @@
   {
     "_id": "33",
     "name": "Honda Classic",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/chXx3XT3/pexels-malex-maleki-1693599227-28097912.jpg",
     "category": "Honda",
     "price": 61
@@ -266,7 +266,7 @@
   {
     "_id": "34",
     "name": "Honda Naked",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/R4gMh85k/pexels-rachel-claire-4993288.jpg",
     "category": "Honda",
     "price": 89
@@ -274,7 +274,7 @@
   {
     "_id": "35",
     "name": "Kawasaki Street",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/TqYqPHrL/pexels-ene-marius-241207761-31322133.jpg",
     "category": "Kawasaki",
     "price": 69
@@ -282,7 +282,7 @@
   {
     "_id": "36",
     "name": "Kawasaki Street",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/Tqt7wxJd/pexels-heyhicham-10647707.jpg",
     "category": "Kawasaki",
     "price": 89
@@ -290,7 +290,7 @@
   {
     "_id": "37",
     "name": "Kawasaki Naked",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/b5YhYyTW/pexels-khaled-al-amad-2148387226-30180723.jpg",
     "category": "Kawasaki",
     "price": 84
@@ -298,7 +298,7 @@
   {
     "_id": "38",
     "name": "Kawasaki Thunder",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/1YPRjK5R/pexels-kipras-zabeliauskas-1607943-5365733.jpg",
     "category": "Kawasaki",
     "price": 61
@@ -306,7 +306,7 @@
   {
     "_id": "39",
     "name": "Kawasaki Racer",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/5xKtwcbx/pexels-najowee-17786965.jpg",
     "category": "Kawasaki",
     "price": 62
@@ -314,15 +314,15 @@
   {
     "_id": "40",
     "name": "Kawasaki Racer",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/Q7YyPq0y/pexels-ridwan-nugraha-692540814-20637883.jpg",
-    "category": "Kawasaki",
+    "category": "popular",
     "price": 78
   },
   {
     "_id": "41",
     "name": "Kawasaki Tourer",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/TqYqPHrL/pexels-ene-marius-241207761-31322133.jpg",
     "category": "Kawasaki",
     "price": 53
@@ -330,7 +330,7 @@
   {
     "_id": "42",
     "name": "Kawasaki Thunder",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/Tqt7wxJd/pexels-heyhicham-10647707.jpg",
     "category": "Kawasaki",
     "price": 71
@@ -338,7 +338,7 @@
   {
     "_id": "43",
     "name": "Kawasaki Racer",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/b5YhYyTW/pexels-khaled-al-amad-2148387226-30180723.jpg",
     "category": "Kawasaki",
     "price": 100
@@ -346,23 +346,23 @@
   {
     "_id": "44",
     "name": "Kawasaki Sportster",
-    "recipe": "High performance and smooth handling.",
+    "description": "High performance and smooth handling.",
     "image": "https://i.ibb.co.com/1YPRjK5R/pexels-kipras-zabeliauskas-1607943-5365733.jpg",
-    "category": "Kawasaki",
+    "category": "popular",
     "price": 54
   },
   {
     "_id": "45",
     "name": "Kawasaki Naked",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/5xKtwcbx/pexels-najowee-17786965.jpg",
-    "category": "Kawasaki",
+    "category": "popular",
     "price": 50
   },
   {
     "_id": "46",
     "name": "Kawasaki Naked",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/Q7YyPq0y/pexels-ridwan-nugraha-692540814-20637883.jpg",
     "category": "Kawasaki",
     "price": 56
@@ -370,7 +370,7 @@
   {
     "_id": "47",
     "name": "Royal Enfield Thunder",
-    "recipe": "High performance and smooth handling.",
+    "description": "High performance and smooth handling.",
     "image": "https://i.ibb.co.com/3YWksWLG/pexels-6th-era-photography-1261885-26185984.jpg",
     "category": "Royal Enfield",
     "price": 97
@@ -378,7 +378,7 @@
   {
     "_id": "48",
     "name": "Royal Enfield Street",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/TDPQmrJR/pexels-abdulkayum97-28758291.jpg",
     "category": "Royal Enfield",
     "price": 70
@@ -386,15 +386,15 @@
   {
     "_id": "49",
     "name": "Royal Enfield Racer",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/0pLFdvFp/pexels-abdulkayum97-28758293.jpg",
-    "category": "Royal Enfield",
+    "category": "popular",
     "price": 93
   },
   {
     "_id": "50",
     "name": "Royal Enfield Racer",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/Wpzft2V0/pexels-abdulkayum97-28758296.jpg",
     "category": "Royal Enfield",
     "price": 99
@@ -402,15 +402,15 @@
   {
     "_id": "51",
     "name": "Royal Enfield Tourer",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/7JHrzh6w/pexels-jisso-heby-597210750-22845785.jpg",
-    "category": "Royal Enfield",
+    "category": "popular",
     "price": 50
   },
   {
     "_id": "52",
     "name": "Royal Enfield Model X",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/s9rVBRBx/pexels-kc22-1033116.jpg",
     "category": "Royal Enfield",
     "price": 87
@@ -418,7 +418,7 @@
   {
     "_id": "53",
     "name": "Royal Enfield Model X",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/ynBbYTR8/pexels-matheus-triaquim-118638681-10155581.jpg",
     "category": "Royal Enfield",
     "price": 91
@@ -426,7 +426,7 @@
   {
     "_id": "54",
     "name": "Royal Enfield Tourer",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/KpS3dTQ8/pexels-nishantaneja-2393821.jpg",
     "category": "Royal Enfield",
     "price": 77
@@ -434,15 +434,15 @@
   {
     "_id": "55",
     "name": "Royal Enfield Thunder",
-    "recipe": "High performance and smooth handling.",
+    "description": "High performance and smooth handling.",
     "image": "https://i.ibb.co.com/67Dh9mrc/pexels-pratik-brahmbhatt-1479980869-27565420.jpg",
-    "category": "Royal Enfield",
+    "category": "popular",
     "price": 88
   },
   {
     "_id": "56",
     "name": "Royal Enfield GT",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/PvSqNVjJ/pexels-venkatganta-17944599.jpg",
     "category": "Royal Enfield",
     "price": 74
@@ -450,7 +450,7 @@
   {
     "_id": "57",
     "name": "Yamaha Street",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/JFHwTYhX/pexels-abhinav-7211301.jpg",
     "category": "Yamaha",
     "price": 76
@@ -458,7 +458,7 @@
   {
     "_id": "58",
     "name": "Yamaha Classic",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/fdd9Rk0j/pexels-bonaventure-fernandez-744363-8348600.jpg",
     "category": "Yamaha",
     "price": 98
@@ -466,15 +466,15 @@
   {
     "_id": "59",
     "name": "Yamaha Sportster",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/FqY539K7/pexels-ian-yunis-331487286-30035421.jpg",
-    "category": "Yamaha",
+    "category": "popular",
     "price": 99
   },
   {
     "_id": "60",
     "name": "Yamaha Cruiser",
-    "recipe": "Perfect for city cruising and long rides.",
+    "description": "Perfect for city cruising and long rides.",
     "image": "https://i.ibb.co.com/jvKCccCG/pexels-ravi-roshan-2875998-31492321.jpg",
     "category": "Yamaha",
     "price": 59
@@ -482,7 +482,7 @@
   {
     "_id": "61",
     "name": "Yamaha Cruiser",
-    "recipe": "A powerful bike built for speed and control.",
+    "description": "A powerful bike built for speed and control.",
     "image": "https://i.ibb.co.com/q3hWYfqy/pexels-rsturka-17859892.jpg",
     "category": "Yamaha",
     "price": 95
@@ -490,7 +490,7 @@
   {
     "_id": "62",
     "name": "Yamaha Model X",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/dscpVWnG/pexels-samuel-sidney-1995337452-28998689.jpg",
     "category": "Yamaha",
     "price": 64
@@ -498,7 +498,7 @@
   {
     "_id": "63",
     "name": "Yamaha Thunder",
-    "recipe": "Blends classic looks with modern tech.",
+    "description": "Blends classic looks with modern tech.",
     "image": "https://i.ibb.co.com/gZGZjwW8/pexels-vishnu-gopal-646199292-29492126.jpg",
     "category": "Yamaha",
     "price": 63
@@ -506,7 +506,7 @@
   {
     "_id": "64",
     "name": "Yamaha Sportster",
-    "recipe": "Engineered for thrill and endurance.",
+    "description": "Engineered for thrill and endurance.",
     "image": "https://i.ibb.co.com/fd0bbGYZ/pexels-wolfart-10392244.jpg",
     "category": "Yamaha",
     "price": 51

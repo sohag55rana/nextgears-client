@@ -7,6 +7,7 @@ const Navbar = () => {
         <li><NavLink to="/" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Home</NavLink></li>
         <li><NavLink to="/models" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Our Models</NavLink></li>
         <li><NavLink to="/dashboard" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Dashboard</NavLink></li>
+        {/* <li><NavLink to="/ourMenu" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Our Menu</NavLink></li> */}
         <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Contact</NavLink></li>
         <li><NavLink to="/about" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>About Us</NavLink></li>
     </>
