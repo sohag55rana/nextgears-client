@@ -10,6 +10,8 @@ const Navbar = () => {
         {/* <li><NavLink to="/ourMenu" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Our Menu</NavLink></li> */}
         <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Contact</NavLink></li>
         <li><NavLink to="/about" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>About Us</NavLink></li>
+        <li><NavLink to="/login" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Login</NavLink></li>
+        <li><NavLink to="/register" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Register</NavLink></li>
     </>
     return (
         <div className="navbar fixed bg-opacity-50 text-white z-10 bg-[#15151580] drop-shadow-md container">

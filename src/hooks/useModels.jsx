@@ -7,7 +7,7 @@ const useModels = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('menu.json')
+        fetch('http://localhost:5000/models')
             .then(res => res.json())
             .then(data => {
                 setMenu(data)

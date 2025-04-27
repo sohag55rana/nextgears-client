@@ -8,6 +8,8 @@ import Dashboard from "../pages/dashboard/Dashboard";
 import Contact from "../pages/contact/Contact";
 import About from "../pages/about/About";
 import OurMenu from "../ourMenu/OurMenu";
+import Login from "../pages/login/Login";
+import Register from "../pages/register/Register";
 
 export const router = createBrowserRouter([
     {
@@ -37,6 +39,14 @@ export const router = createBrowserRouter([
             {
                 path: "about",
                 element: <About></About>,
+            },
+            {
+                path: "login",
+                element: <Login></Login>,
+            },
+            {
+                path: "register",
+                element: <Register></Register>,
             },
         ]
     },
