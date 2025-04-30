@@ -1,30 +1,70 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
-
+import { Link, useNavigate } from "react-router-dom";
+import registerLottieData from '../../assets/lottie/register.json'
+import Lottie from "lottie-react";
+import { Helmet } from "react-helmet-async";
+import { AuthContext } from "../../auth/AuthProvider";
+import { useContext } from "react";
+import { sendEmailVerification } from "firebase/auth";
+import auth from "../../firebase/firebase.config";
+import Swal from "sweetalert2";
 
 const Register = () => {
 
     const {
-        register,
-        handleSubmit,
-        watch,
-        formState: { errors },
-    } = useForm()
+        register, handleSubmit, reset, formState: { errors }, } = useForm();
 
-    const onSubmit = (data) => console.log(data)
-    console.log(watch("example"))
+    const { createUser, updateUserProfile } = useContext(AuthContext);
+    const navigate = useNavigate();
+
+    const onSubmit = (data) => {
+        console.log(data)
+        createUser(data.email, data.password)
+            .then(result => {
+                const user = result.user;
+                updateUserProfile(data.name, data.photoUrl)
+                    .then(() => {
+                        console.log('updateUserProfile');
+                        reset();
+                        Swal.fire({
+                            title: "Account Successfull.Check your Email inbox for verification(or spam folder).",
+                            width: 600,
+                            padding: "3em",
+                            color: "#716add",
+                            background: "#fff url(/images/trees.png)",
+                            backdrop: `
+                              rgba(0,0,123,0.4)
+                              url("/images/nyan-cat.gif")
+                              left top
+                              no-repeat
+                            `
+                        });
+
+                        navigate("/")
+                    })
+                    .catch(error => console.error(error.message)
+                    )
+                console.log(user);
+
+                sendEmailVerification(auth.currentUser)
+                    .then(() => {
+                        console.log('Email verification sent!');
+                    });
+
+            })
+
+    }
 
     return (
         <div className="hero bg-base-200 min-h-screen">
+            <Helmet>
+                <title>NEXTGEARS | Register</title>
+            </Helmet>
             <div className="hero-content flex-col md:flex-row-reverse">
-                <div className="text-center md:w-1/2 lg:text-left">
-                    <h1 className="text-5xl font-bold">Register now!</h1>
-                    <p className="py-6">
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                        quasi. In deleniti eaque aut repudiandae et a id nisi.
-                    </p>
+                <div className="text-center w-1/2 lg:text-left">
+                    <Lottie animationData={registerLottieData}></Lottie>
                 </div>
-                <div className="card bg-base-100 md:w-1/2 max-w-sm shrink-0 shadow-2xl">
+                <div className="card bg-base-100 max-w-sm shrink-0 shadow-2xl w-3/4">
                     <h1 className="text-3xl font-bold mb-5">Register Here!</h1>
                     <p className="mb-5">Already have an account? <Link to="/login" className='text-green-800 '> Login an account</Link></p>
                     <form onSubmit={handleSubmit(onSubmit)} className="card-body">
@@ -32,6 +72,9 @@ const Register = () => {
                             <label className="label">Name</label>
                             <input type="text" {...register("name", { required: true })} name="name" className="input" placeholder="Name" />
                             {errors.name && <span>This field is required</span>}
+                            <label className="label">PhotoUrl</label>
+                            <input type="text" {...register("photoUrl", { required: true })} name="photoUrl" className="input" placeholder="PhotoUrl" />
+                            {errors.photoUrl && <span>This field is required</span>}
                             <label className="label">Email</label>
                             <input type="email" {...register("email", { required: true })} name="email" className="input" placeholder="Email" />
                             {errors.email && <span>This field is required</span>}

@@ -10,6 +10,7 @@ import About from "../pages/about/About";
 import OurMenu from "../ourMenu/OurMenu";
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
+import PrivateRoutes from "./PrivateRoutes";
 
 export const router = createBrowserRouter([
     {
@@ -30,7 +31,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "dashboard",
-                element: <Dashboard></Dashboard>,
+                element: <PrivateRoutes><Dashboard></Dashboard></PrivateRoutes>,
             },
             {
                 path: "contact",
