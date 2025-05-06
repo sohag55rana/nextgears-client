@@ -8,8 +8,11 @@ import { useContext } from "react";
 import { sendEmailVerification } from "firebase/auth";
 import auth from "../../firebase/firebase.config";
 import Swal from "sweetalert2";
+import useAxiosPublic from "../../hooks/useAxiosPublic";
+import SocialLogin from "../../components/SocialLogin";
 
 const Register = () => {
+    const axiosPublic = useAxiosPublic();
 
     const {
         register, handleSubmit, reset, formState: { errors }, } = useForm();
@@ -24,23 +27,34 @@ const Register = () => {
                 const user = result.user;
                 updateUserProfile(data.name, data.photoUrl)
                     .then(() => {
-                        console.log('updateUserProfile');
-                        reset();
-                        Swal.fire({
-                            title: "Account Successfull.Check your Email inbox for verification(or spam folder).",
-                            width: 600,
-                            padding: "3em",
-                            color: "#716add",
-                            background: "#fff url(/images/trees.png)",
-                            backdrop: `
+                        const userInfo = {
+                            name: data.name,
+                            email: data.email
+                        }
+                        axiosPublic.post('/users', userInfo)
+                            .then(res => {
+                                if (res.data.insertedId) {
+                                    console.log('user added to the database');
+                                    reset();
+                                    Swal.fire({
+                                        title: "Account Successfull.Check your Email inbox for verification(or spam folder).",
+                                        width: 600,
+                                        padding: "3em",
+                                        color: "#716add",
+                                        background: "#fff url(/images/trees.png)",
+                                        backdrop: `
                               rgba(0,0,123,0.4)
                               url("/images/nyan-cat.gif")
                               left top
                               no-repeat
                             `
-                        });
+                                    });
 
-                        navigate("/")
+                                    navigate("/")
+                                }
+                            })
+                        console.log('updateUserProfile');
+
                     })
                     .catch(error => console.error(error.message)
                     )
@@ -86,6 +100,10 @@ const Register = () => {
                             <input className="btn btn-neutral mt-4" type="submit" value="Register" />
                         </fieldset>
                     </form>
+                    <div className='text-center'>
+                        <p className='mb-3'>Or Register with</p>
+                        <SocialLogin></SocialLogin>
+                    </div>
                 </div>
             </div>
         </div>

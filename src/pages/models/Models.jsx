@@ -25,7 +25,7 @@ const Models = () => {
             <Helmet>
                 <title>NEXTGEARS | Models</title>
             </Helmet>
-            <Cover img={coverImg} title="Unleash the Power of Two Wheels" description="Discover the ultimate collection of world-class motorcycle models. From speed to style, adventure to legacy — ride with the spirit that defines freedom."></Cover>
+            <Cover img={coverImg} title="Unleash the Power of Two Wheels" designation="Discover the ultimate collection of world-class motorcycle models. From speed to style, adventure to legacy — ride with the spirit that defines freedom."></Cover>
             <div className='text-center mt-12 text-3xl '>
                 <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                     <TabList>

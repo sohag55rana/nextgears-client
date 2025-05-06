@@ -1,16 +1,19 @@
-import {
-    createBrowserRouter,
-} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/main/Main";
 import Home from "../pages/home/Home";
 import Models from "../pages/models/Models";
-import Dashboard from "../pages/dashboard/Dashboard";
 import Contact from "../pages/contact/Contact";
 import About from "../pages/about/About";
 import OurMenu from "../ourMenu/OurMenu";
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
-import PrivateRoutes from "./PrivateRoutes";
+import Dashboard from "../layout/main/Dashboard";
+import Cart from "../pages/dashboard/cart/Cart";
+import UserHome from "../pages/dashboard/userHome/UserHome";
+import PrivateRoutes from "../routes/PrivateRoutes";
+import AllUsers from "../pages/dashboard/allUsers/AllUsers";
+import AddItems from "../pages/dashboard/addItems/AddItems";
+import AdminRoutes from "./AdminRoutes";
 
 export const router = createBrowserRouter([
     {
@@ -30,10 +33,6 @@ export const router = createBrowserRouter([
                 element: <OurMenu></OurMenu>,
             },
             {
-                path: "dashboard",
-                element: <PrivateRoutes><Dashboard></Dashboard></PrivateRoutes>,
-            },
-            {
                 path: "contact",
                 element: <Contact></Contact>,
             },
@@ -51,4 +50,32 @@ export const router = createBrowserRouter([
             },
         ]
     },
+    {
+        path: "dashboard",
+        element: <PrivateRoutes><Dashboard></Dashboard></PrivateRoutes>,
+        children: [
+
+            // admin use
+            {
+                path: "allUsers",
+                element: <AdminRoutes><AllUsers></AllUsers></AdminRoutes>
+            },
+            {
+                path: "addItem",
+                element: <AdminRoutes><AddItems></AddItems></AdminRoutes>
+            },
+
+            // user use
+            {
+                path: "cart",
+                element: <Cart></Cart>
+            },
+
+
+            {
+                path: "userHome",
+                element: <UserHome></UserHome>
+            },
+        ]
+    }
 ]); 

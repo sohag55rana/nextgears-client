@@ -5,7 +5,7 @@ const MenuCategory = ({ items, title, img }) => {
 
     return (
         <div>
-            {title && <Cover img={img} title="Our Menu" description="This is superb Models"></Cover>}
+            {title && <Cover img={img} title="Our Menu" designation="This is superb Models"></Cover>}
             <div className="grid md:grid-cols-2 gap-4 text-start">
                 {
                     items.map(item => <MenuItem key={item._id} item={item}></MenuItem>)

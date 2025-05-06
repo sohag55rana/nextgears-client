@@ -9,6 +9,7 @@ import Swal from 'sweetalert2';
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { sendEmailVerification, sendPasswordResetEmail } from 'firebase/auth';
 import auth from '../../firebase/firebase.config';
+import SocialLogin from '../../components/SocialLogin';
 
 const Login = () => {
 
@@ -180,6 +181,11 @@ const Login = () => {
                             <input disabled={disabled} className="btn btn-neutral mt-4" type="submit" value="Login" />
                         </fieldset>
                     </form>
+                    <div className="divider"></div>
+                    <div className='text-center'>
+                        <p className='mb-3'>Or sign in with</p>
+                        <SocialLogin></SocialLogin>
+                    </div>
                     <p className='text-xl text-red-800 text-center'>{error}</p>
                     {/* {
                         errorMessage && <p>{errorMessage}</p>

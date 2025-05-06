@@ -1,11 +1,13 @@
 import React, { useContext } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { AuthContext } from '../../../auth/AuthProvider';
 import Swal from 'sweetalert2';
 import { FaShoppingCart } from 'react-icons/fa';
+import useCart from '../../../hooks/useCart';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
+    const [cart] = useCart();
     const handleLogout = () => {
         logOut()
             .then(() => {
@@ -24,9 +26,9 @@ const Navbar = () => {
     const navlink = <>
         <li><NavLink to="/" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Home</NavLink></li>
         <li><NavLink to="/models" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Our Models</NavLink></li>
-        <li><NavLink to="/dashboard" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Dashboard</NavLink></li>
-        <li><NavLink to="/"><button className="btn">
-            <FaShoppingCart className='mr-2 text-2xl'></FaShoppingCart> <div className="badge badge-sm badge-secondary">+0</div>
+        {/* <li><NavLink to="/dashboard" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Dashboard</NavLink></li> */}
+        <li><NavLink to="/dashboard/cart"><button className="btn">
+            <FaShoppingCart className='mr-2 text-2xl'></FaShoppingCart> <div className="badge badge-sm badge-secondary">+{cart.length}</div>
         </button></NavLink></li>
         {/* <li><NavLink to="/ourMenu" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Our Menu</NavLink></li> */}
         {/* <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-[#EEFF25]' : 'text-white'}>Contact</NavLink></li> */}
