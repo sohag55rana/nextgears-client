@@ -94,7 +94,7 @@ const Register = () => {
                             {errors.email && <span>This field is required</span>}
                             <label className="label">Password</label>
                             <input type="password" {...register("password", { required: true, minLength: 6, maxLength: 20 })} name="password" className="input" placeholder="Password" />
-                            {errors.password && <span>This field is required</span>}
+                            {errors.password && <span className="text-red-400">This field is required</span>}
 
 
                             <input className="btn btn-neutral mt-4" type="submit" value="Register" />

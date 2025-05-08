@@ -31,16 +31,16 @@ const Category = () => {
                 modules={[FreeMode, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide><img className='w-[312px]' src={img9} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img11} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img12} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img13} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img14} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img15} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img16} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img18} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img19} alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-[312px]' src={img20} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img9} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img11} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img12} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img13} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img14} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img15} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img16} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img18} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img19} alt="" /></SwiperSlide>
+                <SwiperSlide><img loading="eager" className='w-[312px]' src={img20} alt="" /></SwiperSlide>
 
             </Swiper>
         </section>

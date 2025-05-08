@@ -38,16 +38,16 @@ const Dashboard = () => {
                             <>
                                 <li><NavLink to="/dashboard/userHome"><FaHome></FaHome> User Home</NavLink></li>
                                 <li><NavLink to="/dashboard/cart"><FaShoppingCart></FaShoppingCart> Cart ({cart.length})</NavLink></li>
-                                <li><NavLink to="/dashboard/cart"><FaAd></FaAd> Review</NavLink></li>
+                                <li><NavLink to="/dashboard/review"><FaAd></FaAd> Review</NavLink></li>
 
-                                <li><NavLink to="/dashboard/cart"><FaBook></FaBook> Bookings</NavLink></li>
+                                <li><NavLink to="/dashboard/booking"><FaBook></FaBook> Bookings</NavLink></li>
                             </>
                     }
                     {/* sheard thing */}
                     <div className="divider"></div>
 
                     <li><NavLink to="/"><FaHome></FaHome> Home</NavLink></li>
-                    <li><NavLink to="/models"><FaSearch></FaSearch> Menu</NavLink></li>
+                    <li><NavLink to="/models"><FaSearch></FaSearch> Model</NavLink></li>
                     <li><NavLink to="/about"><FaEnvelope></FaEnvelope> Contact</NavLink></li>
 
 

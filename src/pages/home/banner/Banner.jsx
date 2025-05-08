@@ -18,25 +18,25 @@ const Banner = () => {
 
             >
                 <div className="h-[800px]">
-                    <img src={img2} />
+                    <img loading="eager" src={img2} />
                 </div>
                 <div className="h-[800px]">
-                    <img src={img1} />
+                    <img loading="eager" src={img1} />
                 </div>
                 <div className="h-[800px]">
-                    <img src={img3} />
+                    <img loading="eager" src={img3} />
                 </div>
                 <div className="h-[800px]">
-                    <img src={img4} />
+                    <img loading="eager" src={img4} />
                 </div>
                 <div className="h-[800px]">
-                    <img src={img5} />
+                    <img loading="eager" src={img5} />
                 </div>
                 <div className="h-[800px]">
-                    <img src={img6} />
+                    <img loading="eager" src={img6} />
                 </div>
                 <div className="h-[800px]">
-                    <img src={img7} />
+                    <img loading="eager" src={img7} />
                 </div>
             </Carousel>
         </div>
